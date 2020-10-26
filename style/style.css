@@ -51,7 +51,6 @@ header {
     left: 0;
 
     height: 4rem;
-
     padding: 0 1rem;
 
     background: darkslategrey;
@@ -94,7 +93,6 @@ nav {
     bottom: 0;
     right: 0;
 
-    z-index: 10;
 }
 
 .fa-search-minus {
@@ -104,10 +102,6 @@ nav {
 
     bottom: 0;
     right: 0;
-
-    display: none;
-
-    z-index: 10;
 }
 
 main {

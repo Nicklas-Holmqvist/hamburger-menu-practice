@@ -9,10 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="width flex align-vert">
+    <header class="width flex align-vert" id="setHeight">
         <div class="top-header flex row center-vert width">
             <div class="hamburger-menu no-desktop">
-                <div class="hamburger-btn">
+                <div class="hamburger-btn" id="setHamburger" onclick="openHamburgermenu()">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
@@ -27,10 +27,10 @@
                     <li>Framtid</li>
                 </ul>
             </nav>
-            <div class="zoom-btn">
-                <i class="fas fa-font"></i>                
-                <i class="fas fa-search-minus"></i>
-                <i class="fas fa-search-plus"></i>
+            <div class="zoom-btn" onclick="largerText()">
+                <i class="fas fa-font" ></i>                
+                <i class="fas fa-search-minus" id="setMinus"></i>
+                <i class="fas fa-search-plus" id="setPlus"></i>
             </div>
         </div>
         <div class="mobile-menu no-desktop width">

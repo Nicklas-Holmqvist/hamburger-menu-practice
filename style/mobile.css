@@ -1,5 +1,6 @@
 @media (max-width: 36em) {
     header {
+        
         padding-top: 1rem;
         flex-direction: column;
     }
@@ -25,8 +26,6 @@
     }
 
     .mobile-menu {
-        display: none;
-
         flex: 1;
         justify-content: center;
         align-items: flex-start;
