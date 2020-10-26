@@ -45,11 +45,17 @@ li {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    
     height: 4rem;
 
     padding: 0 1rem;
 
     background: darkslategrey;
+    color: white;
 }
 
 .top-header {
@@ -67,7 +73,41 @@ nav {
 
 .zoom-btn {
     display: flex;
+    flex-direction: column;
     justify-self: flex-end;
+
+    position: relative;
+
+    width: 2rem;
+}
+
+.fa-font {
+    font-size: 1.8rem;
+    /* justify-self: flex-start; */
+}
+
+.fa-search-plus {
+    position: absolute;    
+    border-radius: 50rem;
+    background-color: darkslategrey;
+    
+    bottom: 0;
+    right: 0;
+
+    z-index: 10;
+}
+
+.fa-search-minus {
+    position: absolute;
+    border-radius: 50rem;
+    background-color: darkslategrey;
+
+    bottom: 0;
+    right: 0;
+
+    display: none;
+
+    z-index: 10;
 }
 
 main {
