@@ -1,8 +1,8 @@
 @media (max-width: 36em) {
-    header {
-        
+    header {        
         padding-top: 1rem;
         flex-direction: column;
+
     }
 
     .no-desktop {
@@ -30,12 +30,11 @@
         justify-content: center;
         align-items: flex-start;
 
-        padding-top: 4rem;
+        padding-top: 4rem;       
     }
 
     .mobile-menu li {
         font-size: 2rem;
         padding-top: 2rem;
-    }
-    
+    }    
 }

@@ -55,6 +55,8 @@ header {
 
     background: darkslategrey;
     color: white;
+
+    transition: all 1s ease;
 }
 
 .top-header {
@@ -68,6 +70,7 @@ nav {
     justify-self: flex-start;
 
     padding-left: 2rem;
+
 }
 
 .zoom-btn {
@@ -78,6 +81,8 @@ nav {
     position: relative;
 
     width: 2rem;
+
+    transition: all .5s ease;
 }
 
 .fa-font {
