@@ -56,7 +56,7 @@ header {
     background: darkslategrey;
     color: white;
 
-    transition: all 1s ease;
+    transition: height .5s ease;
 }
 
 .top-header {
